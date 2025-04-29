@@ -21,6 +21,10 @@ public class B extends A {
         this.m = m;
     }
 
+    public void setL(int l) {
+        this.l = l;
+    }
+
     @Override
     public String toString() {
         return super.toString() + "\nB{" + "l=" + l + ", n=" + n + ", m=" + m + ", o=" + o + '}';
